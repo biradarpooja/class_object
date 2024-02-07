@@ -48,8 +48,12 @@ model class car:
     def tata(self,a,b):
         print("The tata car price is :",a)
         print("The tata model is",b,"year old")
+    def microsoft(self,a,b):
+        print("The microsoft car price is:",a)
+        print("The ,icrosoft model is:",b)
 cmp=car()
 cmp.tcs(10000,1900)
 cmp.google(140000,2000)
 cmp.tata(220000,2001)
+cmp.microsoft(23000,2022)
     
